@@ -26,14 +26,14 @@ with st.sidebar:
         "OpenAI API Key",
         type="password",
         placeholder="sk-...",
-        help="Enter your OpenAI API key"
+        help="Enter your OpenAI API key. [Get your key here](https://platform.openai.com/api-keys)"
     )
     
     tavily_api_key = st.text_input(
         "Tavily API Key",
         type="password",
         placeholder="tvly-...",
-        help="Enter your Tavily API key for web search"
+        help="Enter your Tavily API key for web search. [Get your key here](https://app.tavily.com/home)"
     )
     
     st.divider()
